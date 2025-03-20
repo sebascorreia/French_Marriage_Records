@@ -4,18 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="04fb625a-65e0-416d-8ebb-fed980677df6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/French_Marriage_Records.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Helper functions/Label_processing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/m-popp_datasets/handwritten/images/trial/AD075EC_03M240_0052-left.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/m-popp_datasets/handwritten/images/trial/AD075EC_03M240_0052-right.png" afterDir="false" />
+    <list default="true" id="04fb625a-65e0-416d-8ebb-fed980677df6" name="Changes" comment="First commit French Marriage Records">
+      <change afterPath="$PROJECT_DIR$/Label_Corrector.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OCR_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/awslabs_htr.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/French_Marriage_Records.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/French_Marriage_Records.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AD075EC_03M240_0052-left.png.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AD075EC_03M240_0052-right.png.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Helper functions/Label_processing.py" beforeDir="false" afterPath="$PROJECT_DIR$/Helper functions/Label_processing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/m-popp_datasets/handwritten/images/trial/AD075EC_03M240_0052-left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m-popp_datasets/handwritten/images/trial/AD075EC_03M240_0052-right.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +28,17 @@
       <list>
         <option value="Python Script" />
       </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
     </option>
   </component>
   <component name="Git.Settings">
@@ -45,17 +57,54 @@
   "keyToString": {
     "Python.Label_processing.executor": "Run",
     "Python.Main.executor": "Run",
+    "Python.OCR_test.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/Sebas/Personal_Projects/French_Marriage_Records",
+    "last_opened_file_path": "D:/anaconda/Scripts/conda.exe",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "bigdataide_conn_settings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Sebas\Personal_Projects\French_Marriage_Records" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Label_processing" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="French_Marriage_Records" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Helper functions" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Helper functions/Label_processing.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Label_processing" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -74,15 +123,43 @@
       <updated>1739457341708</updated>
       <workItem from="1739457343056" duration="15000" />
       <workItem from="1739466855920" duration="612000" />
-      <workItem from="1739467642097" duration="13029000" />
+      <workItem from="1739467642097" duration="14720000" />
+      <workItem from="1742056883486" duration="3356000" />
+      <workItem from="1742075364371" duration="39000" />
+      <workItem from="1742075712725" duration="1667000" />
+      <workItem from="1742077712171" duration="4398000" />
+      <workItem from="1742470420493" duration="11746000" />
+      <workItem from="1742483739537" duration="520000" />
     </task>
+    <task id="LOCAL-00001" summary="First commit French Marriage Records">
+      <option name="closed" value="true" />
+      <created>1739548403220</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1739548403220</updated>
+    </task>
+    <task id="LOCAL-00002" summary="First commit French Marriage Records">
+      <option name="closed" value="true" />
+      <created>1739548625478</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1739548625478</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First commit French Marriage Records" />
+    <option name="LAST_COMMIT_MESSAGE" value="First commit French Marriage Records" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/French_Marriage_Records$OCR_test.coverage" NAME="OCR_test Coverage Results" MODIFIED="1742057885616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/French_Marriage_Records$Main.coverage" NAME="Main Coverage Results" MODIFIED="1739467827506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/French_Marriage_Records$Label_processing.coverage" NAME="Label_processing Coverage Results" MODIFIED="1739547892749" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Helper functions" />
+    <SUITE FILE_PATH="coverage/French_Marriage_Records$Label_processing.coverage" NAME="Label_processing Coverage Results" MODIFIED="1742482415025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Helper functions" />
   </component>
 </project>
