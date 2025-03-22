@@ -1,8 +1,6 @@
 import json
 import re
 
-
-
 def label_processing(filename):
     with open(filename, "r", encoding='utf-8') as f:
         data = json.load(f)
@@ -37,6 +35,6 @@ def save_json(data, filename):
         print("Data saved successfully")
 
 if __name__ == "__main__":
-    filename= "D:\Sebas\Personal_Projects\French_Marriage_Records\m-popp_datasets\handwritten\labels\labels-handwritten-encoding-1.json"
+    filename= "/m-popp_datasets/handwritten/labels/labels-handwritten-encoding-1.json"
     labels = label_processing(filename)
-    save_json(labels, "D:\Sebas\Personal_Projects\French_Marriage_Records\m-popp_datasets\handwritten\labels\processed_labels.json")
+    save_json(labels, "/m-popp_datasets/handwritten/labels/processed_labels.json")
